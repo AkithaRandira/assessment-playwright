@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Leather Wallet",
+      "url": "/itm/Mens-Leather-Wallet-Bifold-Credit-Card-ID-Holder-Slim-Coin-Purse/123456789012",
+      "category": "Wallets",
+      "maxRelatedProducts": 6,
+      "priceTolerancePercentage": 0.2,
+      "testFallback": false
+    },
+    {
+      "name": "Designer Wallet",
+      "url": "/itm/Designer-Mens-Wallet-Genuine-Leather-RFID-Blocking/234567890123",
+      "category": "Wallets",
+      "maxRelatedProducts": 6,
+      "priceTolerancePercentage": 0.2,
+      "testFallback": false
+    },
+    {
+      "name": "Wallet with API Failure Test",
+      "url": "/itm/Slim-Minimalist-Wallet-Front-Pocket-Card-Holder/345678901234",
+      "category": "Wallets",
+      "maxRelatedProducts": 6,
+      "priceTolerancePercentage": 0.2,
+      "testFallback": true
+    }
+  ]
+}
