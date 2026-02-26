@@ -14,32 +14,19 @@ This is a professional test automation framework built with **Playwright** and *
 
 | Rule | Description | Status |
 |------|-------------|--------|
-| **Rule 1** | Related products must belong to the same category as the main product | ✅ Implemented |
-| **Rule 2** | Related products must fall within ±20% of the main product price | ✅ Implemented |
-| **Rule 3** | Maximum of 6 related products should be displayed | ✅ Implemented |
-| **Rule 4** | If fewer than 6 products exist, display only available ones | ✅ Implemented |
-| **Rule 5** | If API fails, display a graceful fallback message | ✅ Implemented |
-| **Rule 6** | Clicking a related product should navigate to that product page | ✅ Implemented |
+| **Rule 1** | Related products must belong to the same category as the main product | Implemented |
+| **Rule 2** | Related products must fall within ±20% of the main product price | Implemented |
+| **Rule 3** | Maximum of 6 related products should be displayed | Implemented |
+| **Rule 4** | If fewer than 6 products exist, display only available ones | Implemented |
+| **Rule 5** | If API fails, display a graceful fallback message | Implemented |
+| **Rule 6** | Clicking a related product should navigate to that product page | Implemented |
 
 ---
 
 ## 🏗️ Framework Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    Test Layer                           │
-│  (relatedProducts.spec.ts - Test Logic & Assertions)   │
-└────────────────────┬────────────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────────────┐
-│                  Page Object Layer                      │
-│     (ProductPage.ts - Locators & Page Methods)         │
-└────────────────────┬────────────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────────────┐
-│                   Data Layer                            │
-│  (relatedProductsData.json - Test Data & Parameters)   │
-└─────────────────────────────────────────────────────────┘
+  Test Layer      ->  Page Object Layer   ->   Data Layer 
 ```
 
 **Key Design Principles:**
@@ -271,7 +258,7 @@ Framework is CI-ready with:
 ## 👤 Author
 
 **QA Assessment Project**  
-Software Quality Engineer Position
+Akitha Randira
 
 ---
 
